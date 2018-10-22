@@ -1,0 +1,7 @@
+@value bgWhite: #fff;
+
+.avatarImg {
+  /* stylelint-disable */
+  border-radius: 10%;
+  background-color: bgWhite;
+}

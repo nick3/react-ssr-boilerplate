@@ -1,0 +1,16 @@
+@value textGreen: #45c01a;
+@value textGray: #888;
+
+.authHeader {
+  /* stylelint-disable */
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.52rem;
+  padding: 0 16px;
+  color: textGray;
+}
+
+.linkToSign {
+  color: textGreen;
+  text-decoration: underline;
+}

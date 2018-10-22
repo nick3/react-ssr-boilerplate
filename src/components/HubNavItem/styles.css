@@ -1,0 +1,142 @@
+@value white: #fff;
+@value textGray: #666;
+@value borderColor: #c8c8c8;
+
+.hubNavItem {
+  /* stylelint-disable */
+  flex: 0 0 25%;
+  -webkit-flex: 0 0 25%;
+  text-align: center;
+  border-right: 2px solid borderColor;
+  background-color: white;
+
+  a {
+    display: inline-block;
+    padding: 10px 0 10px;
+    font-size: 14px;
+    color: textGray;
+  }
+}
+
+.icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 2px auto;
+}
+
+.iconCourse {
+  composes: icon;
+  background: url('/images/myCourse.png');
+  background-size: 100%;
+}
+
+.iconAchievedCourse {
+  composes: icon;
+  background: url('/images/achievedCourse.png');
+  background-size: 100%;
+}
+
+.iconLastCourse {
+  composes: icon;
+  background: url('/images/lastCourse.png');
+  background-size: 100%;
+}
+
+.iconBinding {
+  composes: icon;
+  background: url('/images/binding.png');
+  background-size: 100%;
+}
+
+.iconToStudent {
+  composes: icon;
+  background: url('/images/student.png');
+  background-size: 100%;
+}
+
+.iconHelp {
+  composes: icon;
+  background: url('/images/help.png');
+  background-size: 100%;
+}
+
+.iconJoin {
+  composes: icon;
+  background: url('/images/joinCourse.png');
+  background-size: 100%;
+}
+
+.iconDiscuss {
+  composes: icon;
+  background: url('/images/discuss.png');
+  background-size: 100%;
+}
+
+.iconCheckIn {
+  composes: icon;
+  background: url('/images/checkIn.png');
+  background-size: 100%;
+}
+
+.iconAnswer {
+  composes: icon;
+  background: url('/images/answer.png');
+  background-size: 100%;
+}
+
+.iconResponder {
+  composes: icon;
+  background: url('/images/responder.png');
+  background-size: 100%;
+}
+
+.iconAssessment {
+  composes: icon;
+  background: url('/images/assessment.png');
+  background-size: 100%;
+}
+
+.iconHistory {
+  composes: icon;
+  background: url('/images/history.png');
+  background-size: 100%;
+}
+
+.iconToTeacher {
+  composes: icon;
+  background: url('/images/teaching.png');
+  background-size: 100%;
+}
+
+.iconToStudent {
+  composes: icon;
+  background: url('/images/student.png');
+  background-size: 100%;
+}
+
+.iconInteractRank {
+  composes: icon;
+  background: url('/images/interactRank.png');
+  background-size: 100%;
+}
+
+.iconScan {
+  composes: icon;
+  background: url('/images/scanqr.png') no-repeat center center;
+  background-size: 70%;
+}
+
+.iconCourseware {
+  composes: icon;
+  background: url('/images/courseware.png');
+  background-size: 100%;
+}
+
+.iconStudentInfo {
+  composes: icon;
+  background-color: #217346;
+  background-size: 100%;
+  mask-size: 48px 48px;
+  mask-image: url('/images/studentInfo.svg');
+}

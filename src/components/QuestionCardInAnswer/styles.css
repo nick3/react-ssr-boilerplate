@@ -1,0 +1,103 @@
+.questionCardInAnswer {
+  /* stylelint-disable */
+  width: 240px;
+  height: 280px;
+  font-size: 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.infoDiv {
+  width: 100%;
+  height: 92px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 16px;
+}
+
+.teacherInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+
+.teacherName {
+  max-width: calc(100% - 20px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.courseName {
+  width: 100%;
+  font-size: 20px;
+  font-weight: Semibold;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.title {
+  width: 100%;
+  height: 88px;
+  margin: 16px 0;
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.btn {
+  width: 208px;
+  height: 32px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 32px;
+  text-align: center;
+  border-radius: 15px;
+  background-color: #1aad19;
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.btnCover {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 9;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.limit {
+  color: #888;
+}
+
+.answerEnd {
+  color: #f4333c;
+}

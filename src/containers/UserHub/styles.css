@@ -1,0 +1,24 @@
+@value bgColor: #efeff4;
+
+.userHub {
+  /* stylelint-disable */
+  height: 100%;
+  font-size: 0.14rem;
+  background-color: bgColor;
+}
+
+.userHubWrap {
+  min-height: 100%;
+}
+
+.unregisterWrapper {
+  padding: 20px;
+  margin-top: 40px;
+  background-color: white;
+}
+
+.langSelector {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}

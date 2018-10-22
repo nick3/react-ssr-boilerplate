@@ -1,0 +1,8 @@
+@value bgColor: #fff;
+
+.fillText {
+  /* stylelint-disable */
+  font-size: 17px;
+  margin: 0 16px;
+  border-bottom: 1px #e5e5e5 solid;
+}

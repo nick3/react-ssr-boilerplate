@@ -1,0 +1,12 @@
+.registTopBtns {
+  /* stylelint-disable */
+  width: 100%;
+}
+
+.btn {
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 50px;
+}

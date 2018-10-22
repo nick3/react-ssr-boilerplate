@@ -1,0 +1,9 @@
+@value imgBorderColor: #eee;
+@value bgWhite: #fff;
+
+.circleImg {
+  /* stylelint-disable */
+  border-radius: 50%;
+  border: 1px solid imgBorderColor;
+  background-color: bgWhite;
+}

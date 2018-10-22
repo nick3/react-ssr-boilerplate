@@ -1,0 +1,16 @@
+@value textGray: #6a6a6a;
+
+.inveractUsers {
+  /* stylelint-disable */
+  margin-top: 0.1rem;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.moreBtn {
+  outline: none;
+  width: 100%;
+  padding: 0.1rem 0;
+  text-align: center;
+  color: textGray;
+}

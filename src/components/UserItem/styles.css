@@ -1,0 +1,102 @@
+@value textWhite: #ffffff;
+@value textGray: #484848;
+@value textLightGray: #9b9b9b;
+@value textGreen: #4bbea1;
+@value textOrange: #ff9c45;
+@value borderGray: #cdcaca;
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.userItem {
+  /* stylelint-disable */
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  align-items: center;
+  -webkit-align-items: center;
+  padding: 0.12rem 0.08rem;
+  background: textWhite;
+  color: textGray;
+  border-bottom: 0.01rem solid borderGray;
+}
+
+.dark {
+  color: textGray;
+}
+
+.link {
+  composes: dark;
+  display: flex;
+  display: -webkit-flex;
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.homeLink {
+  composes: link;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+.rank {
+  font-size: 0.18rem;
+  width: 0.32rem;
+  margin-right: 0.02rem;
+  text-align: center;
+}
+
+.rankGray {
+  composes: rank;
+  color: textGray;
+}
+
+.rankWhite {
+  composes: rank;
+  color: textWhite;
+}
+
+.userInfo {
+  -webkit-flex: 1 1 auto;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+  line-height: 1.25;
+  margin: 0 0.05rem;
+  height: 0.38rem;
+  overflow: hidden;
+}
+
+.teacherName {
+  font-size: 0.18rem;
+  display: block;
+}
+
+.courseName {
+  color: textLightGray;
+}
+
+.count {
+  font-family: STHeitiSC-Light;
+  font-size: 0.3rem;
+  line-height: 1;
+  margin-right: 0.15rem;
+  letter-spacing: 0.01rem;
+}
+
+.interactionCount {
+  composes: count;
+  color: textGreen;
+}
+
+.topInteractionCount {
+  composes: count;
+  color: textOrange;
+}

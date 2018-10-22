@@ -1,0 +1,15 @@
+.chapterSelector {
+  /* stylelint-disable */
+  overflow: hidden;
+}
+
+.chapters {
+  margin-top: 0;
+}
+
+.chapterSelect {
+  height: 0.24rem;
+  line-height: 0.24rem;
+  position: absolute;
+  margin-top: -0.1rem;
+}

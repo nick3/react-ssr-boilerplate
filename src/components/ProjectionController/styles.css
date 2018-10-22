@@ -1,0 +1,56 @@
+.projectionController {
+  /* stylelint-disable */
+  width: 100%;
+  margin: 20px 0;
+  height: 32vw;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  z-index: 1;
+}
+
+.defaultStyle {
+  width: 32%;
+  height: 25vw;
+  border-radius: 3px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 3px;
+  background-size: cover;
+  outline: none;
+}
+
+.currentStyle {
+  width: 40%;
+  height: 30vw;
+  border-radius: 3px;
+  font-size: 12px;
+  position: absolute;
+  left: 30%;
+  background-size: cover;
+}
+
+.cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 30px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.description {
+  width: 80%;
+  height: 40%;
+  margin-bottom: 15px;
+  overflow: hidden;
+  font-size: 14px;
+  word-wrap: break-word;
+}

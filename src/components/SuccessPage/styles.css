@@ -1,0 +1,32 @@
+.successPage {
+  /* stylelint-disable */
+  width: 100%;
+  color: #888;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px 0 20px;
+  background-color: #fff;
+}
+
+.title {
+  width: 100%;
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+  word-break: break-all;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.button {
+  margin-top: 16px;
+}
+
+.backBtn {
+  color: #333;
+  margin-top: 16px;
+  background-color: #fff;
+}

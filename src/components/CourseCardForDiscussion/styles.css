@@ -1,0 +1,144 @@
+.courseCardForDiscussion {
+  /* stylelint-disable */
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+
+.nameAndStatus {
+  width: 100%;
+  color: #fff;
+  font-size: 12px;
+  position: relative;
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  background-position: center;
+}
+
+.cover {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.64);
+}
+
+.topic {
+  width: 100%;
+  height: 24px;
+  position: relative;
+  z-index: 2;
+  border-radius: 5px 5px 0 0;
+}
+
+.text {
+  width: 100%;
+  height: 24px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  border-radius: 5px 5px 0 0;
+  background-color: rgba(77, 181, 83, 0.8);
+}
+
+.title {
+  height: 84px;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  padding: 0 8px;
+  font-size: 20px;
+  z-index: 2;
+}
+
+.content {
+  width: 100%;
+  line-height: 20px;
+  text-align: left;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+}
+
+.teacherInfo {
+  z-index: 2;
+  width: 100%;
+  height: 32px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    rgba(51, 51, 51, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+
+.avatar {
+  flex: none;
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.name {
+  max-width: calc(100% - 48px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.teacher {
+  flex: none;
+  margin-left: 6px;
+}
+
+.classInfo {
+  width: 100%;
+  height: 36px;
+  padding: 8px;
+  color: #4a4a4a;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+.qrCode {
+  flex: none;
+  width: 16px;
+  margin-right: 4px;
+}
+
+.code {
+  width: calc(100% - 76px);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.count {
+  width: 24px;
+  height: 24px;
+  margin: 0 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px 0 rgba(188, 188, 188, 0.5);
+}
+
+.student {
+  color: #9b9b9b;
+}

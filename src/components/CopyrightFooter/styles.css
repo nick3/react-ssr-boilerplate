@@ -1,0 +1,8 @@
+@value textGray: #b2b2b2;
+
+.copyrightFooter {
+  /* stylelint-disable */
+  text-align: center;
+  color: textGray;
+  font-size: 0.1rem;
+}

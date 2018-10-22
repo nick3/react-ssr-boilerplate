@@ -1,0 +1,70 @@
+@value textWhite: #8cfff6;
+@value buttonBg: #1d7b63;
+@value buttonBorder: #74dec3;
+@value colorBg: linear-gradient(223deg, #15a099 0%, #16a397 27%, #16a794 39%, #16af8e 53%, #16b18c 55%, #17b887 77%, #32be96 100%);
+
+.dataChart {
+  /* stylelint-disable */
+  margin: 0.68rem 0.1rem 0.3rem;
+  padding: 0.1rem 0.08rem;
+  background-image: colorBg;
+  border-radius: 0.05rem;
+  height: 2.3rem;
+}
+
+.chartHead {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  border-bottom: 0.01rem solid textWhite;
+}
+
+.chartBtn {
+  position: relative;
+  display: inline-block;
+  background-color: buttonBg;
+  border: 0.01rem solid buttonBorder;
+  border-radius: 0.1rem;
+  font-size: 0.12rem;
+  width: 0.38rem;
+  height: 0.2rem;
+  color: textWhite;
+}
+
+.buttonItems {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  padding: 0 0.04rem;
+}
+
+.btnCircle {
+  position: absolute;
+  top: 0rem;
+  display: inline-block;
+  width: 0.18rem;
+  height: 0.18rem;
+  border-radius: 50%;
+  background-color: textWhite;
+}
+
+.monthCircle {
+  composes: btnCircle;
+  right: 0.01rem;
+}
+
+.weekCircle {
+  composes: btnCircle;
+  left: 0.01rem;
+}
+
+.chartContent {
+  margin-top: 0.1rem;
+}
+
+.totalNum {
+  color: textWhite;
+  font-size: 0.18rem;
+}

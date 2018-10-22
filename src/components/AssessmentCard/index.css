@@ -1,0 +1,104 @@
+.wrapper {
+  background: #ffffff;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px 0px,
+    rgba(0, 0, 0, 0.117647) 0px 1px 4px 0px;
+  min-height: 48px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: block;
+  outline: none;
+  text-align: left;
+}
+.wrapper.isPreview {
+  box-shadow: none;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 16px;
+}
+.wrapper.mini .title {
+  font-size: 14px;
+  margin: 16px;
+  margin-bottom: 0;
+}
+
+.ratioBar {
+  min-height: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-items: stretch;
+  align-items: stretch;
+  position: relative;
+  background-color: #e3e3e3;
+}
+.ratioBar::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(
+    -180deg,
+    #f7f8f9 1%,
+    rgba(222, 223, 223, 0) 27%,
+    rgba(211, 212, 212, 0) 75%,
+    #8d8d8d 100%
+  );
+}
+.ratioBar .rbItem {
+  height: 100%;
+}
+
+.title {
+  font-size: 20px;
+  color: #4a4a4a;
+  margin: 8px 16px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.status-open {
+  font-size: 12px;
+  color: #ff3e81;
+  margin: 8px 16px;
+}
+
+.status-close {
+  font-size: 12px;
+  color: #9b9b9b;
+  margin: 16px;
+}
+
+.header,
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.typeBoxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 6px;
+}
+.typeBoxes .typeBox {
+  border: 1px solid;
+  border-radius: 2px;
+  font-size: 12px;
+  text-align: center;
+  width: 70px;
+  height: 28px;
+  line-height: 28px;
+  margin: 8px 6px;
+}
+
+.openTime {
+  font-size: 12px;
+  color: #9b9b9b;
+  text-align: right;
+  padding: 16px;
+}

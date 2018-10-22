@@ -1,0 +1,16 @@
+@value textGrag: #666;
+
+.linkCell {
+  /* stylelint-disable */
+  font-size: 0.17rem;
+}
+
+.fontHack {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.cellBody {
+  /*color: textGrag;*/
+  font-weight: normal;
+  font-stretch: normal;
+}

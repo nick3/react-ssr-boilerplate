@@ -1,0 +1,32 @@
+.icon {
+  display: inline-block;
+  width: 0.24rem;
+  height: 0.24rem;
+}
+
+.likeBtn {
+  position: relative;
+}
+
+.likeIcon {
+  composes: icon;
+  background-image: url(images/vote-green.png);
+  background-size: 100%;
+}
+
+.unlikeIcon {
+  composes: icon;
+  background-image: url(images/vote-grey.png);
+  background-size: 100%;
+}
+
+.likeArea {
+  outline: none;
+  padding: 0 0.06rem;
+}
+
+.likeCount {
+  display: block;
+  font-size: 0.16rem;
+  align-self: center;
+}

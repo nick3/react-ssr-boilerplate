@@ -1,0 +1,88 @@
+@value dark: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(51, 51, 51, 0.5) 48%, rgba(0, 0, 0, 0.5));
+@value textWhite: #fff;
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.textSection {
+  composes: ellipsis;
+  position: relative;
+  max-width: 100%;
+  align-self: center;
+  text-align: center;
+  color: textWhite;
+  z-index: 2;
+}
+
+.identifyCard {
+  /* stylelint-disable */
+  position: relative;
+  display: flex;
+  padding: 0.16rem 0.12rem;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 120%;
+  filter: blur(0.2rem);
+  margin: -0.3rem;
+  -webkit-filter: blur(0.2rem);
+  background: no-repeat center;
+  background-size: 100% 100%;
+  overflow: hidden;
+  z-index: 0;
+
+  &:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: dark;
+    z-index: 1;
+  }
+}
+
+.imgSection {
+  composes: textSection;
+}
+
+.name {
+  composes: textSection;
+  font-size: 0.24rem;
+  margin-top: 0.1rem;
+}
+
+.unregister {
+  composes: textSection;
+  font-size: 0.14rem;
+  margin-top: 10px;
+}
+
+.description {
+  composes: textSection;
+  font-size: 0.14rem;
+}
+
+.subDescription {
+  composes: textSection;
+  font-size: 0.12rem;
+}
+
+.link {
+  position: absolute;
+  top: 0.16rem;
+  right: 0.12rem;
+  width: 0.24rem;
+  height: 0.24rem;
+  background: url(./images/setting.png);
+  background-size: 100%;
+  z-index: 2;
+}

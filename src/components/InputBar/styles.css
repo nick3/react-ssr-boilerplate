@@ -1,0 +1,22 @@
+.inputBar {
+  /* stylelint-disable */
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 2vw);
+  padding: 1vh 1vw;
+  font-size: 0.16rem;
+  background-color: #eee;
+  border-bottom: solid 1px #ddd;
+}
+
+.input {
+  width: calc(100% - 0.4rem);
+  text-indent: 0.16rem;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 2px 0 4px 0;
+}
+
+.searchBtn {
+  color: green;
+}

@@ -1,0 +1,75 @@
+.teacherBottomCard {
+  /* stylelint-disable */
+  font-size: 12px;
+  width: 100%;
+  height: 56px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.btnStyle {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  outline: none;
+}
+
+.classroom {
+  mask-image: url('../../images/home.svg');
+  mask-size: 30px 30px;
+}
+
+.greenCircle {
+  width: 48px;
+  height: 48px;
+  background-color: #3b9e46;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+}
+
+.answer {
+  mask-image: url('../../images/people.svg');
+  mask-size: 30px 30px;
+}
+
+.courseWare {
+  mask-image: url('../../images/courseWare.svg');
+  mask-size: 30px 30px;
+}
+
+.discussion {
+  mask-image: url('../../images/discussion.svg');
+  mask-size: 30px 30px;
+}
+
+.plus {
+  mask-image: url('../../images/plus.svg');
+  mask-size: 24px 24px;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  z-index: 900;
+}
+
+.sign {
+  mask-image: url('../../images/sign.svg');
+  mask-size: 48px 48px;
+  width: 48px;
+  height: 48px;
+  background-color: #fff;
+  position: absolute;
+  z-index: 800;
+  opacity: 0.2;
+  left: 8px;
+  top: 10px;
+}

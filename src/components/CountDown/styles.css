@@ -1,0 +1,19 @@
+.container {
+  /* stylelint-disable */
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  position: relative;
+}
+
+.container button {
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 48px;
+  text-align: center;
+  outline: none;
+}

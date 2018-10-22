@@ -1,0 +1,26 @@
+.courseCard {
+  /* stylelint-disable */
+}
+
+.stateWrapper {
+  display: flex;
+}
+
+.icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: -1px;
+}
+
+.iconCheckIn {
+  composes: icon;
+  background: url(./images/checkIn.png);
+  background-size: 100%;
+}
+
+.iconAnswer {
+  composes: icon;
+  background-image: url(./images/answer.png);
+  background-size: 100%;
+}

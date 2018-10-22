@@ -1,0 +1,15 @@
+.scrollLoader {
+  /* stylelint-disable */
+  position: relative;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.loadBar {
+  display: none;
+  position: absolute;
+  width: 100%;
+  top: -0.45rem;
+  text-align: center;
+  line-height: 0.3rem;
+}

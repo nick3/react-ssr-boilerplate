@@ -1,0 +1,15 @@
+@value textWhite: #fff;
+@value bgRed: #e64340;
+
+.alertTip {
+  /* stylelint-disable */
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  background: bgRed;
+  color: textWhite;
+  font-size: 0.16rem;
+  line-height: 0.35rem;
+  z-index: 1;
+}

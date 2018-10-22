@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.noCourses {
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 110px;
+}
+
+.noCoursesMessage {
+  text-align: center;
+  font-size: 16px;
+  color: #1dccbc;
+}
+
+.foot {
+  color: #3b9e46;
+}
+
+.television {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: -2px;
+  margin-right: 2px;
+}

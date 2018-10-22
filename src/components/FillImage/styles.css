@@ -1,0 +1,36 @@
+@value bgBlack: #000;
+@value white: #fff;
+
+.fillImage {
+  /* stylelint-disable */
+  text-align: center;
+  font-size: 0.16rem;
+  margin: 0 -0.1rem;
+}
+
+.btnArea {
+  padding: 0 0.1rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+  margin-bottom: 0.15rem;
+  position: relative;
+}
+
+.uploader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: alpha(opacity=0);
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  opacity: 0;
+  z-index: 2;
+}
+
+.image {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}

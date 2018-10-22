@@ -1,0 +1,113 @@
+@value textWhite: #fff;
+
+.pptcontroller {
+  /* stylelint-disable */
+  display: flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  margin-bottom: 0.2rem;
+  position: relative;
+  width: 180%;
+  height: 1.4rem;
+  color: textWhite;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+}
+
+.card {
+  border-radius: 0.05rem;
+  outline: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.sideCard {
+  composes: card;
+  position: absolute;
+  width: 18%;
+  top: 0.27rem;
+  height: 1rem;
+  background-size: cover;
+  border-radius: 0 0.05rem 0.05rem 0;
+  margin-bottom: 0.06rem;
+  z-index: 99;
+}
+
+.mask {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.1rem;
+  height: 100%;
+  text-align: center;
+}
+
+.index {
+  font-size: 0.3rem;
+  font-family: arial;
+}
+
+.content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  min-height: 0.38rem;
+  font-size: 0.12rem;
+}
+
+.prevPage {
+  composes: sideCard;
+  left: 19%;
+  &:first-child {
+    left: 0;
+  }
+  & .mask {
+    text-align: right;
+  }
+}
+
+.curPage {
+  composes: card;
+  position: absolute;
+  width: 24%;
+  top: 0.15rem;
+  left: 50%;
+  margin-left: -12%;
+  height: 1.2rem;
+  background-size: cover;
+  z-index: 101;
+  & .content {
+    min-height: 0.5rem;
+    font-size: 0.16rem;
+  }
+  & .index {
+    font-size: 0.4rem;
+  }
+}
+
+.nextPage {
+  composes: sideCard;
+  right: 19%;
+  &:last-child {
+    right: 0;
+  }
+  & .mask {
+    text-align: left;
+  }
+}
+
+.fillPage {
+  composes: sideCard;
+}
+
+.replayBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 101;
+  padding: 0.4rem 30% 0;
+}

@@ -1,0 +1,37 @@
+@value bgColor: #fff;
+@value borderColor: #c8c8c8;
+
+.hubNavigation {
+  /* stylelint-disable */
+  position: relative;
+  background-color: bgColor;
+  z-index: 10;
+}
+
+.navRow {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-bottom: 2px solid borderColor;
+}
+
+.navRow :last-child {
+  border-right: none;
+}
+
+.blank {
+  float: right;
+  width: 33.3333%;
+  border-right: 2px solid borderColor;
+}
+
+.migrating {
+  text-align: center;
+  color: #666;
+  z-index: 20;
+  position: relative;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+}

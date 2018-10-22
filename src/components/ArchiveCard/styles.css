@@ -1,0 +1,66 @@
+@value black: #2e313a;
+@value gray: #575b63;
+@value white: #fff;
+@value green: #4db553;
+@value lightGray: #c7c7cc;
+
+.archiveCard {
+  /* stylelint-disable */
+  position: relative;
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: white;
+  padding: 0.15rem;
+  margin-bottom: 0.15rem;
+  outline: none;
+  border: none;
+  &::after {
+    position: absolute;
+    top: 50%;
+    right: 0.08rem;
+    margin-top: -0.05rem;
+    content: '';
+    width: 0.1rem;
+    height: 0.1rem;
+    transform: rotate(45deg);
+    border: 0.03rem solid lightGray;
+    border-left-color: transparent;
+    border-bottom-color: transparent;
+  }
+}
+
+.title {
+  color: black;
+  font-size: 0.18rem;
+  margin-bottom: 0.05rem;
+}
+
+.content {
+  color: gray;
+  font-size: 0.12rem;
+}
+
+.link {
+  position: absolute;
+  right: 0.05rem;
+  top: 50%;
+  margin-top: -0.15rem;
+  z-index: 1;
+}
+
+.cardContent {
+  max-width: 80%;
+}
+
+.iconMatch {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  font-size: 0.14rem;
+  margin-left: 0.15rem;
+  line-height: 0.24rem;
+  width: 0.58rem;
+  text-align: center;
+  border-radius: 0.02rem;
+}
